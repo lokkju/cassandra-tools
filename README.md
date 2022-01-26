@@ -25,6 +25,7 @@ the SSTables sorted by the max date, descending.
 #### Usage
 Fetch the script:
 ```
+wget -q https://github.com/lokkju/cassandra-tools/raw/main/ls-sstm.sh
 ```
 
 Run the script:
