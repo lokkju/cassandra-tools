@@ -12,7 +12,7 @@ either set your `PATH` or set `CASSANDRA_HOME`
 ### ls-sstm
 *display the min and max dates for each SSTable in a directory*
 
-When using Cassandra Time Window Compaction Strategy, SSTables do not get
+When using Cassandra's *Time Window Compaction Strategy*, SSTables do not get
 deleted if they contain any rows with a TTL set to 0. If you didn't set a TTL
 on insert, and didn't set a default TTL for the table, your SSTables will never
 get automatically deleted.
